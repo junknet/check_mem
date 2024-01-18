@@ -1,21 +1,21 @@
 [
 {
-  "directory": "/home/junknet/Desktop/qwe",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iprocmap/include", "-DNDEBUG", "-o", "build/.objs/qwe/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "directory": "/home/junknet/Desktop/check_mem",
+  "arguments": ["/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++", "-c", "--sysroot=/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot", "-I", "/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android", "-nostdinc++", "-Qunused-arguments", "-target", "aarch64-none-linux-android21", "-fPIC", "-Oz", "-Iprocmap/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++abi/include", "-DNDEBUG", "-o", "build/.objs/qwe/android/arm64-v8a/release/src/main.cpp.o", "src/main.cpp"],
   "file": "src/main.cpp"
 },
 {
-  "directory": "/home/junknet/Desktop/qwe",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iprocmap/include", "-DNDEBUG", "-o", "build/.objs/qwe/linux/x86_64/release/procmap/src/procmap/MemorySegment.cpp.o", "procmap/src/procmap/MemorySegment.cpp"],
+  "directory": "/home/junknet/Desktop/check_mem",
+  "arguments": ["/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++", "-c", "--sysroot=/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot", "-I", "/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android", "-nostdinc++", "-Qunused-arguments", "-target", "aarch64-none-linux-android21", "-fPIC", "-Oz", "-Iprocmap/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++abi/include", "-DNDEBUG", "-o", "build/.objs/qwe/android/arm64-v8a/release/procmap/src/procmap/MemorySegment.cpp.o", "procmap/src/procmap/MemorySegment.cpp"],
   "file": "procmap/src/procmap/MemorySegment.cpp"
 },
 {
-  "directory": "/home/junknet/Desktop/qwe",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iprocmap/include", "-DNDEBUG", "-o", "build/.objs/qwe/linux/x86_64/release/procmap/src/procmap/Logger.cpp.o", "procmap/src/procmap/Logger.cpp"],
+  "directory": "/home/junknet/Desktop/check_mem",
+  "arguments": ["/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++", "-c", "--sysroot=/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot", "-I", "/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android", "-nostdinc++", "-Qunused-arguments", "-target", "aarch64-none-linux-android21", "-fPIC", "-Oz", "-Iprocmap/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++abi/include", "-DNDEBUG", "-o", "build/.objs/qwe/android/arm64-v8a/release/procmap/src/procmap/Logger.cpp.o", "procmap/src/procmap/Logger.cpp"],
   "file": "procmap/src/procmap/Logger.cpp"
 },
 {
-  "directory": "/home/junknet/Desktop/qwe",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Iprocmap/include", "-DNDEBUG", "-o", "build/.objs/qwe/linux/x86_64/release/procmap/src/procmap/MemoryMap.cpp.o", "procmap/src/procmap/MemoryMap.cpp"],
+  "directory": "/home/junknet/Desktop/check_mem",
+  "arguments": ["/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++", "-c", "--sysroot=/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot", "-I", "/opt/android-ndk/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android", "-nostdinc++", "-Qunused-arguments", "-target", "aarch64-none-linux-android21", "-fPIC", "-Oz", "-Iprocmap/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/include", "-I", "/opt/android-ndk/sources/cxx-stl/llvm-libc++abi/include", "-DNDEBUG", "-o", "build/.objs/qwe/android/arm64-v8a/release/procmap/src/procmap/MemoryMap.cpp.o", "procmap/src/procmap/MemoryMap.cpp"],
   "file": "procmap/src/procmap/MemoryMap.cpp"
 }]

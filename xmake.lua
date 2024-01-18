@@ -1,14 +1,15 @@
 add_rules("mode.debug", "mode.release")
 
 target("qwe")
-    set_kind("binary")
+    -- set_kind("binary")
+    set_kind("shared")
     add_files("src/*.cpp")
     add_files("procmap/src/procmap/*.cpp")
     add_includedirs("procmap/include")
     after_build(function (target) 
-        os.exec("%s",target:targetfile())
+        os.exec("adb push %s /data/local/tmp/",target:targetfile())
+        -- os.exec("adb shell  /data/local/tmp/%s",target:name())
     end)  
-
 
 
 --
